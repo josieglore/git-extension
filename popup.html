@@ -7,14 +7,23 @@
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
   </head>
   <body>
-    <h1>Your Git Repositories</h1>
-    <div>Add this repo?</div>
-    <button id="add-repo">Yes, please</button>
-    <div id="links-container"></div>
-    <span id="repository-number">Total Repositories:</span>
-    <span id="repository-increment"></span>
-
-    <div><img id="meme"></div>
+  <div id="top-container">
+    <div id="add-container">
+      <span><img src="noun_add_860385_072758.svg" id="add-repo-button"></span>
+      <span id="add-repo">Add this repo</span>
+      <br>
+    </div>
+  </div>
+    <div id="undo-container">
+      <span><img src="noun_Undo_1802565_61676b.svg" id="undo-icon"></span>
+      <span id="undo">Undo</span>
+    </div>
+    <h2>Your Git Repositories</h2>
+    <div id="cat-and-links">
+      <span><img src="octocat.png" id="octocat"></span>
+      <span id="links-container"></span>
+    </div>
+      <div id="clear">Clear your repos?</div>
   </body>
   <script src="popup.js"></script>
 </html>
